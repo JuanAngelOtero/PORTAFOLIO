@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portafolio - Juan Ángel Otero</title>
+  <meta name="description" content="Portafolio de desarrollador de software - Juan Ángel Otero">
+  <meta name="keywords" content="portafolio, desarrollador de software, proyectos, aplicaciones, web, escritorio">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&family=Raleway:wght@400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Juan Ángel Otero</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+          <li><a href="resume.html">Currículum</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="portfolio.html" class="active">Portafolio</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Título de la Página -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Portafolio</h1>
+              <p class="mb-0">Aquí presento algunos de mis proyectos desarrollados como
+                <strong>desarrollador de software</strong>, tanto en aplicaciones de escritorio como en páginas web.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Portafolio</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+    <!-- End Page Title -->
+
+    <!-- Sección de Portafolio -->
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <!-- Filtros -->
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todos</li>
+            <li data-filter=".filter-escritorio">Escritorio</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+
+          <!-- Proyectos -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Disfruta -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-escritorio">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/imglogoDisfruta.jpeg" class="img-fluid" alt="Disfruta - Tienda de Frutas">
+                <div class="portfolio-info">
+                  <h4>Disfruta</h4>
+                  <p>Aplicación de escritorio para la gestión de una tienda de frutas</p>
+                  <a href="assets/img/portfolio/imglogoDisfruta.jpeg" title="Disfruta - App Escritorio"
+                    data-gallery="portfolio-gallery-escritorio" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Biblioteca Comunitaria -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-escritorio">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/imgBibliocomu.jpeg" class="img-fluid" alt="Biblioteca Comunitaria">
+                <div class="portfolio-info">
+                  <h4>Biblioteca Comunitaria</h4>
+                  <p>Aplicación de escritorio para préstamos y gestión de libros</p>
+                  <a href="assets/img/portfolio/imgBibliocomu.jpeg" title="Biblioteca Comunitaria - App Escritorio"
+                    data-gallery="portfolio-gallery-escritorio" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- SkateLab -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/imglogoSkatelab.jpeg" class="img-fluid" alt="SkateLab">
+                <div class="portfolio-info">
+                  <h4>SkateLab</h4>
+                  <p>Página web para agendamiento de sesiones deportivas</p>
+                  <a href="assets/img/portfolio/imglogoSkatelab.jpeg" title="SkateLab - Página Web"
+                    data-gallery="portfolio-gallery-web" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Click Libro -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/imgclicklibro2.jpeg" class="img-fluid" alt="Click Libro">
+                <div class="portfolio-info">
+                  <h4>Click Libro</h4>
+                  <p>Página web para la venta de libros en línea</p>
+                  <a href="assets/img/portfolio/imgclicklibro2.jpeg" title="Click Libro - Página Web"
+                    data-gallery="portfolio-gallery-web" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Portfolio Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Juan Ángel Otero</h3>
+      <p>Desarrollador de software - Aplicaciones de escritorio y páginas web</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Juan Ángel Otero</strong> <span>Todos los derechos
+            reservados</span>
+        </div>
+        <div class="credits">
+          Diseñado con <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
